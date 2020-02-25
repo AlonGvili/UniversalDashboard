@@ -1,0 +1,1 @@
+(window.webpackJsonpantdesign=window.webpackJsonpantdesign||[]).push([[63],{1454:function(e,n,s){"use strict";Object.defineProperty(n,"__esModule",{value:!0})}}]);

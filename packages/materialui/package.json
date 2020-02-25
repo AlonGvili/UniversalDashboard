@@ -1,0 +1,42 @@
+{
+  "name": "materialui",
+  "version": "1.0.0",
+  "description": "material-ui react library from powershell universal-dashboard",
+  "keywords": [
+    "material-ui",
+    "powershell",
+    "universal-dashboard"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alongvili/universaldashboard.git",
+    "directory": "packages/materialui"
+  },
+  "author": "alongvili <poshil@outlook.co.il>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/materialui.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "webpack -p --env production"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.3",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/lab": "^4.0.0-alpha.43",
+    "@material-ui/pickers": "^3.2.10",
+    "@material-ui/system": "^4.7.1",
+    "material-table": "^1.57.2"
+  },
+  "devDependencies": {
+    "react-router-dom": "5.1.2",
+    "webpack": "4.41.6",
+    "webpack-cli": "3.3.11"
+  }
+}

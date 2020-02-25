@@ -1,0 +1,7 @@
+(window.webpackJsonpmaterialui=window.webpackJsonpmaterialui||[]).push([[6],{266:function(t,e,n){var r;
+/*!
+  Copyright (c) 2017 Jed Watson.
+  Licensed under the MIT License (MIT), see
+  http://jedwatson.github.io/classnames
+*/!function(){"use strict";var n={}.hasOwnProperty;function a(){for(var t=[],e=0;e<arguments.length;e++){var r=arguments[e];if(r){var i=typeof r;if("string"===i||"number"===i)t.push(r);else if(Array.isArray(r)&&r.length){var s=a.apply(null,r);s&&t.push(s)}else if("object"===i)for(var o in r)n.call(r,o)&&r[o]&&t.push(o)}}return t.join(" ")}t.exports?(a.default=a,t.exports=a):void 0===(r=function(){return a}.apply(e,[]))||(t.exports=r)}()},276:function(t,e,n){"use strict";n.r(e),n.d(e,"default",(function(){return h}));var r=n(33),a=n(17),i=n(12),s=n(21),o=n(22),u=n(23),p=n(0),c=n.n(p),l=n(266),f=n.n(l),h=function(t){function e(){return Object(a.a)(this,e),Object(s.a)(this,Object(o.a)(e).apply(this,arguments))}return Object(u.a)(e,t),Object(i.a)(e,[{key:"render",value:function(){return UniversalDashboard.renderComponent(Object(r.a)({className:f()(this.props.className,"ud-mu-icon"),style:Object(r.a)({},this.props.style)},this.props,{type:"icon"}))}}]),e}(c.a.Component)}}]);
+//# sourceMappingURL=Icon.eadb7186c2ceb7e221f6.bundle.map

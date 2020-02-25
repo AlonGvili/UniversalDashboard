@@ -1,0 +1,49 @@
+{
+  "name": "antdesign",
+  "version": "1.0.0",
+  "description": "ant-design react library from powershell universal-dashboard",
+  "keywords": [
+    "ant-design",
+    "powershell",
+    "universal-dashboard"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alongvili/universaldashboard.git",
+    "directory": "packages/antdesign"
+  },
+  "author": "alongvili <poshil@outlook.co.il>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/antdesign.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "webpack -p --env production"
+  },
+  "dependencies": {
+      "@ant-design/colors": "^3.2.2",
+        "@ant-design/create-react-context": "^0.2.5",
+        "@ant-design/dark-theme": "^1.0.3",
+        "@ant-design/icons-react": "^2.0.1",
+        "@ant-design/icons-svg": "^4.0.0-alpha.5",
+        "@ant-design/tools": "^8.0.4",
+        "@umijs/hooks": "^1.5.2",
+        "antd": "^3.26.5",
+        "dynamic-antd-theme": "^0.4.1",
+        "match-sorter": "^4.0.2",
+        "rc-footer": "^0.6.2",
+        "rc-queue-anim": "^1.8.3",
+        "rc-tween-one": "^2.6.8",
+        "use-clipboard-copy":"^0.1.2"
+  },
+   "devDependencies": {
+    "webpack": "4.41.6",
+    "webpack-cli": "3.3.11"
+  }
+}
